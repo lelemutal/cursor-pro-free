@@ -9,8 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Cursor - Cracked Pro",
-  description: "rickrolled cursor pro",
+  title: "Dashboard Financiero - Análisis de Mercado en Tiempo Real",
+  description: "Dashboard interactivo para análisis de bonos, LECAPs, carry trade, acciones, CEDEARs y más. Incluye IA para insights financieros.",
+  keywords: "finanzas, bonos, carry trade, LECAPs, acciones, CEDEARs, dashboard, análisis financiero",
 };
 
 export default function RootLayout({
@@ -19,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${inter.className} antialiased`}
       >
